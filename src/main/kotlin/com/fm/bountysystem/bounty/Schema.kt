@@ -45,6 +45,7 @@ class BountyQuery: Query {
     suspend fun allBounty() =  resolver.getAll()
 }
 
+
 @Component
 class BountyMutations : Mutation {
     @Autowired
